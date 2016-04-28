@@ -118,9 +118,9 @@
         <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
                 <input type="text" name="q" class="form-control" placeholder="Search..."/>
-              <span class="input-group-btn">
-                <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
-              </span>
+                <span class="input-group-btn">
+                    <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+                </span>
             </div>
         </form>
         <!-- /.search form -->
@@ -136,11 +136,10 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="<?php echo createrUrl("cuentas", "cuentas", "registrar"); ?>"><i class="ion ion-arrow-right-b"></i>REGISTRAR</a></li>
-                    <li><a href="<?php echo createrUrl("cuentas", "cuentas", "listar"); ?>"><i class="ion ion-arrow-right-b"></i>CONSULTAR</a></li>
-                    <li><a><i class="ion ion-arrow-down-b"></i>TIPO DE USUARIO</a>
+                     <li><a href="#"><i class="ion ion-arrow-right-b"></i>CONSULTAR<i class="fa fa-angle-left pull-right"></i></a>
                         <ul class="treeview-menu">
-                            <li><a href="<?php echo createrUrl("tipo_usuarios", "tipo_usuarios", "registrar"); ?>"><i class="ion ion-arrow-right-b"></i>REGISTRAR</a></li>
-                            <li><a href="<?php echo createrUrl("tipo_usuarios", "tipo_usuarios", "listar"); ?>"><i class="ion ion-arrow-right-b"></i>CONSULTAR</a></li>
+                            <li><a href="<?php echo createrUrl("cuentas", "cuentas", "listar"); ?>"><i class="ion ion-arrow-right-b"></i>PERSONAS NATURALES</a></li>
+                            <li><a href="<?php echo createrUrl("cuentas","cuentas_empresas","listar"); ?>"><i class="ion ion-arrow-down-b"></i>PERSONAS JURIDICAS</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -150,12 +149,12 @@
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-pie-chart"></i>
-                    <span>PAGP</span>
+                    <span>PAGOS</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="<?php echo createrUrl("instructores", "instructores", "registrar"); ?>"><i class="fa fa-circle-o"></i>REGISTRAR</a></li>
-                    <li><a href="<?php echo createrUrl("instructores", "instructores", "listar"); ?>"><i class="fa fa-circle-o"></i>CONSULTAR</a></li>
+                    <li><a href="<?php echo createrUrl("pagos", "pagos", "registrar"); ?>"><i class="fa fa-circle-o"></i>REGISTRAR</a></li>
+                    <li><a href="<?php echo createrUrl("pagos", "pagos", "listar"); ?>"><i class="fa fa-circle-o"></i>CONSULTAR</a></li>
                 </ul>
             </li>
 

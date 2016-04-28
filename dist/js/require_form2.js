@@ -25,7 +25,7 @@
                     email: true
                 },
                 saldo:{
-                    required: "required",
+                    required: true,
                     minlength: 5
                 },
                 fecha: "required",

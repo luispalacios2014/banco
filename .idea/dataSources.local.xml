@@ -13,11 +13,5 @@
       <schema-pattern>sistemabanco.pg_catalog sistemabanco.public</schema-pattern>
       <default-schemas>sistemabanco.public</default-schemas>
     </data-source>
-    <data-source name="PostgreSQL - BANCO@localhost" uuid="e6b38d00-f844-4840-9505-a1056d61dad0">
-      <secret-storage>master_key</secret-storage>
-      <user-name>postgres</user-name>
-      <schema-pattern>BANCO.pg_catalog BANCO.public</schema-pattern>
-      <default-schemas>BANCO.public</default-schemas>
-    </data-source>
   </component>
 </project>

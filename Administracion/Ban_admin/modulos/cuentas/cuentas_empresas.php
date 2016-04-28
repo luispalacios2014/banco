@@ -1,31 +1,30 @@
 <?php
 /**
  * Created by IntelliJ IDEA.
- * User: luis
- * Date: 28/03/2016
- * Time: 03:27 PM
+ * User: kellin andrea
+ * Date: 21/04/2016
+ * Time: 05:27 PM
  */
-
 
 /**
  * Class clientes_clientes
  * @package Gym\Administracion\Gym_admin\modulos\cuentas\cuentas
  */
+include_once ("librerias/head.php");
 
-class cuentas_cuentas_empresas{
+class cuentas_cuentas_empresas {
 
     /**
      * MODULO REGISTRAR CLIENTES
      */
-    function registrar()
-    {
+    function registrar() {
         ?>
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    Clientes
-                    <small>Del sistema</small>
+                    Cuentas
+                    <small>Del Sistema</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="#"><i class="fa fa-dashboard"></i>Inic&iacute;o</a></li>s
@@ -37,7 +36,7 @@ class cuentas_cuentas_empresas{
                 <!-- Default box -->
                 <div class="box">
                     <div class="box-header with-border">
-                        <center> <h3 class="box-title"><i class="fa fa-users fa-2x"></i>REGISTRO DE CLIENTES</h3></center>
+                        <center> <h3 class="box-title"><i class="fa fa-users fa-2x"></i>REGISTRO DE CUENTAS</h3></center>
                         <div class="box-tools pull-right">
                             <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
                         </div>
@@ -53,10 +52,11 @@ class cuentas_cuentas_empresas{
 
                                     <ul class="nav nav-pills nav-justified">
                                         <li><a href="<?php echo createrUrl("cuentas", "cuentas", "registrar"); ?>">CUENTAS PERSONAS NATURALES</a></li>
-                                        <li class="active"><a>CUENTAS PARA EMPRESAS</a></li>
+
+                                        <li class="active"><a>CUENTAS PERSONAS JURIDICAS</a></li>
                                     </ul>
 
-                                    <form name="signupForm1" id="signupForm1" class="form-horizontal" method="post" autocomplete="off" action="<?php echo createrUrl("cuentas", "cuentas", "regi_cuentas"); ?>"  >
+                                    <form name="signupForm1" id="signupForm1" class="form-horizontal" enctype="multipart/form-data" method="post" autocomplete="off" action="<?php echo createrUrl("cuentas", "cuentas_empresas", "regi_empresas"); ?>"  >
                                         <div class="box-body">
 
                                             <div class="col-xs-12">
@@ -65,34 +65,44 @@ class cuentas_cuentas_empresas{
                                                 </h2>
                                             </div>
 
-
+                                            <?php
+                                            $dias = array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado");
+                                            $meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                                            $fecha = date('d') . " de " . $meses[date('n') - 1] . " del " . date('Y');
+                                            ?>  
                                             <div class="col-lg-6 form-group">
-                                                <label class="col-sm-3 control-label" for="identificacion">Identificaci&oacute;n</label>
-                                                <div class="col-xs-9">
-                                                    <input type="text" class="form-control" id="identificacion" name="identificacion" placeholder="Identificaci&oacute;n" onkeypress="return soloNumeros(event)">
-                                                </div>
+                                                <label class="col-sm-3 control-label" for="identificacion">Fecha</label>
+                                                <div class="col-xs-6">
+                                                    <input type="text" class="form-control" id="" name="" value="<?php echo $fecha; ?>" placeholder="Identificaci&oacute;n"  readonly="">                </div>
                                             </div>
 
-                                            <div class="col-lg-6 form-group">
-                                                <label class="control-label col-sm-3" for="tipo_identificacion">Tipo Identificacion</label>
-                                                <div class="col-xs-9">
-                                                    <select class="form-control" name="tipo_identificacion" id="tipo_identificacion">
+                                                    <div class="col-lg-6 form-group">
+                                                        <label class="control-label col-sm-3" for="tipo_identificacion">Tipo Identificacion</label>
+                                                        <div class="col-xs-9">
+                                                            <select class="form-control" name="tipo_identificacion" id="tipo_identificacion">
 
-                                                        <?php
-                                                        $a = new Conexion();
-                                                        $sql=("select * from ban_tipo_documento");
-                                                        $res=$a->execute1($sql);
-                                                        while($rows=mysqli_fetch_assoc($res))
-                                                        {
-                                                            echo "<option value='".$rows['Tip_Doc_Id']."'><font><font>".$rows['Tip_Descripcion']."</font></font></option>";
-                                                        }
-                                                        ?>
+                                                                <?php
+                                                                $a = new Conexion();
+                                                                $sql = ("select * from tipo_documento");
+                                                                $res = $a->execute1($sql);
+                                                                while ($rows = pg_fetch_array($res)) {
+                                                                    echo "<option value='" . $rows['id'] . "'><font><font>" . $rows['nombre'] . "</font></font></option>";
+                                                                }
+                                                                ?>
 
-                                                    </select>
-                                                </div>
-                                            </div>
+                                                            </select>
+                                                        </div>
+                                                    </div>
 
-                                            <div class="col-lg-6 form-group">
+
+                                                    <div class="col-lg-6 form-group">
+                                                        <label class="col-sm-3 control-label" for="identificacion">Identificaci&oacute;n</label>
+                                                        <div class="col-xs-9">
+                                                            <input type="text" class="form-control" id="identificacion" name="identificacion" placeholder="Identificaci&oacute;n" onkeypress="return soloNumeros(event)">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 form-group">
                                                 <label class="col-sm-3 control-label" for="nombre">Nombre</label>
                                                 <div class="col-xs-9">
                                                     <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre Cliente" onkeypress="return soloLetras(event)">
@@ -106,7 +116,25 @@ class cuentas_cuentas_empresas{
                                                 </div>
                                             </div>
 
+                                            <div class="col-xs-12">
+                                                <h2 class="page-header">
+                                                    <i class="fa fa-user"></i><font><font>Informacion de la Empresa 
+                                                </h2>
+                                            </div>
 
+                                            <div class="col-lg-6 form-group">
+                                                <label class="col-sm-3 control-label" for="nit">Nit</label>
+                                                <div class="col-xs-9">
+                                                    <input type="text" class="form-control" id="nit" name="nit" placeholder="nit" onkeypress="return soloNumeros(event)">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 form-group">
+                                                <label class="col-sm-3 control-label" for="nombre">Razon Social</label>
+                                                <div class="col-xs-9">
+                                                    <input type="text" class="form-control" id="razon_social" name="razon_social" placeholder="Razon Social" onkeypress="return soloLetras(event)">
+                                                </div>
+                                            </div>
 
                                             <div class="col-lg-6 form-group">
                                                 <label class="col-sm-3 control-label" for="direccion">Direccion</label>
@@ -116,45 +144,26 @@ class cuentas_cuentas_empresas{
                                             </div>
 
                                             <div class="col-lg-6 form-group">
-                                                <label class="col-sm-3 control-label" for="telefono">Telefono</label>
+                                                <label class="col-sm-3 control-label" for="correo">Correo Electronico</label>
                                                 <div class="col-xs-9">
-                                                    <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono" onkeypress="return soloNumeros(event)">
+                                                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo Electronico">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 form-group" >
-                                                <label class="col-sm-3 control-label" for="fecha_nacimiento">Fecha Nacimiento</label>
+                                                <label class="col-sm-3 control-label" for="fecha_cos">Fecha Constitucion</label>
                                                 <div class="col-xs-9">
-                                                    <input type="date" class="form-control" id="nacimiento" name="nacimiento">
+                                                    <input type="date" class="form-control" id="fecha_cos" name="fecha_cos">
                                                 </div>
                                             </div>
 
-                                            <div class="col-lg-6 form-group" >
-                                                <label class="col-sm-3 control-label" for="nombre">Pais Nacimiento</label>
+                                            <div class="col-lg-6 form-group">
+                                                <label class="col-sm-3 control-label" for="imagen">Camara de Comercio</label>
                                                 <div class="col-xs-9">
-                                                    <input type="text" class="form-control" id="pais" name="pais" placeholder="Pais de Nacimiento" onkeypress="return soloLetras(event)">
+                                                    <input type="file" class="form-control" id="imagen" name="imagen" placeholder="Camara Comercio">
                                                 </div>
                                             </div>
-
-                                            <!--                                            <div class="col-lg-6 form-group">-->
-                                            <!--                                                <label class="control-label col-sm-3" for="departamento">Departamento</label>-->
-                                            <!--                                                <div class="col-xs-9">-->
-                                            <!--                                                    <select class="form-control" name="Dep_Id" id="Dep_Id" onchange="select()">-->
-                                            <!--                                                        <option title="Ingrese Departamento" value="">Seleccione Departamento</option>-->
-                                            <!--                                                        --><?php
-                                            //                                                        $a = new Conexion();
-                                            //                                                        $sql=("select * from ban_departamento");
-                                            //                                                        $res=$a->execute1($sql);
-                                            //                                                        while($rows=mysqli_fetch_assoc($res))
-                                            //                                                        {
-                                            //                                                            echo "<option value='".$rows['Dep_Id']."'><font><font>".$rows['Dep_Nombre']."</font></font></option>";
-                                            //                                                        }
-                                            //                                                        ?>
-                                            <!---->
-                                            <!--                                                    </select>-->
-                                            <!--                                                </div>-->
-                                            <!--                                            </div>-->
-
+                                            
                                             <div class="col-lg-6 form-group">
                                                 <label class="control-label col-sm-3" for="ciudad">Ciudad</label>
                                                 <div class="col-xs-9">
@@ -162,184 +171,165 @@ class cuentas_cuentas_empresas{
 
                                                         <?php
                                                         $a = new Conexion();
-                                                        $sql=("select * from ban_ciudad");
-                                                        $res=$a->execute1($sql);
-                                                        while($rows=mysqli_fetch_assoc($res))
-                                                        {
-                                                            echo "<option value='".$rows['Ciu_Id']."'><font><font>".$rows['Ciu_Nombre']."</font></font></option>";
+                                                        $sql = ("select * from ciudad");
+                                                        $res = $a->execute1($sql);
+                                                        while ($rows = pg_fetch_array($res)) {
+                                                            echo "<option value='" . $rows['id'] . "'><font><font>" . $rows['nombre'] . "</font></font></option>";
                                                         }
                                                         ?>
 
                                                     </select>
                                                 </div>
                                             </div>
-
+                                            
                                             <div class="col-lg-6 form-group">
-                                                <label class="control-label col-sm-3" for="ocupacion">Ocupacion</label>
+                                                <label class="control-label col-sm-3" for="tipo_empresa">Tipo Empresa</label>
                                                 <div class="col-xs-9">
-                                                    <select class="form-control" name="ocupacion" id="ocupacion">
-
-                                                        <?php
-                                                        $a = new Conexion();
-                                                        $sql=("select * from ban_ocupacion");
-                                                        $res=$a->execute1($sql);
-                                                        while($rows=mysqli_fetch_assoc($res))
-                                                        {
-                                                            echo "<option value='".$rows['Ocu_Id']."'><font><font>".$rows['Ocu_Descripcion']."</font></font></option>";
-                                                        }
-                                                        ?>
-
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 form-group">
-                                                <label class="control-label col-sm-3" for="nivel">Nivel Academico</label>
-                                                <div class="col-xs-9">
-                                                    <select class="form-control" name="nivel" id="nivel">
-
-                                                        <?php
-                                                        $a = new Conexion();
-                                                        $sql=("select * from ban_nivel_academico");
-                                                        $res=$a->execute1($sql);
-                                                        while($rows=mysqli_fetch_assoc($res))
-                                                        {
-                                                            echo "<option value='".$rows['Niv_Aca_Id']."'><font><font>".$rows['Niv_Aca_Descripcion']."</font></font></option>";
-                                                        }
-                                                        ?>
-
+                                                    <select class="form-control" name="tipo_empresa" id="tipo_empresa">
+                                                       <option value='1'><font><font>Publica</font></font></option>
+                                                       <option value='2'><font><font>Privada</font></font></option>
+                                                       <option value='3'><font><font>Mixta</font></font></option>
                                                     </select>
                                                 </div>
                                             </div>
 
                                             <div class="col-xs-12">
-                                                <h2 class="page-header">
-                                                    <i class="fa fa-globe"></i><font><font>Productos a Solcitar
-                                                </h2>
-                                            </div>
+                                                        <h2 class="page-header">
+                                                            <i class="fa fa-globe"></i><font><font>Productos a Solcitar
+                                                        </h2>
+                                                    </div>
 
+                                                    <div class="col-lg-6 form-group">
+                                                        <label class="col-sm-3 control-label" for="tipo">TIPO DE CUENTA</label>
+                                                        <div class="col-xs-9">
+                                                            <select class="form-control" name="tipo" id="tipo">
+                                                                <?php
+                                                                $a = new Conexion();
+                                                                $sql = ("select * from tipo_cuenta WHERE nombre='CORRIENTE' ");
+                                                                $res = $a->execute1($sql);
+                                                                while ($rows = pg_fetch_assoc($res)) {
+                                                                    echo "<option value='" . $rows['id'] . "'><font><font>" . $rows['nombre'] . "</font></font></option>";
+                                                                }
+                                                                ?>
 
-
-                                            <div class="container">
-                                                <ul class="nav nav-tabs">
-                                                    <li class="active"><a href="#corriente">CUENTAS CORRIENTES</a></li>
-                                                    <li><a href="#ahorros">CUENTA DE AHORROS</a></li>
-                                                    <!--                                                    <li><a href="#menu2">Menu 2</a></li>-->
-                                                    <!--                                                    <li><a href="#menu3">Menu 3</a></li>-->
-                                                </ul>
-
-                                                <div class="tab-content">
-                                                    <div id="corriente" class="tab-pane fade in active">
-                                                        <br>
-
-
-                                                        <div class="col-lg-6 form-group">
-                                                            <label class="col-sm-3 control-label" for="saldo">SALDO</label>
-                                                            <div class="col-xs-9">
-                                                                <input type="text" class="form-control" id="saldo" name="saldo" onkeypress="return soloNumeros(event)" placeholder="$">
-                                                            </div>
+                                                            </select>
                                                         </div>
+                                                    </div>
 
-                                                        <div class="col-lg-6 form-group">
-                                                            <label class="col-sm-3 control-label" for="banco">ENTIDAD</label>
-                                                            <div class="col-xs-9">
-                                                                <input type="text" class="form-control" id="banco" name="banco" value="NUESTRO BANCO" onkeypress="return soloLetras(event)" readonly="readonly" >
-                                                            </div>
+                                                    <div class="col-lg-6 form-group">
+                                                        <label class="col-sm-3 control-label" for="nombre">SALDO</label>
+                                                        <div class="col-xs-9">
+                                                            <input type="text" class="form-control" id="saldo" name="saldo" placeholder="$" onkeypress="return soloNumeros(event)">
                                                         </div>
+                                                    </div>
 
-                                                        <div class="col-lg-6 form-group">
-                                                            <label class="col-sm-3 control-label" for="tipo">TIPO DE CUENTA</label>
-                                                            <div class="col-xs-9">
-                                                                <select class="form-control" name="tipo" id="tipo">
-                                                                    <option value="">SELECIONE TIPO CUENTA</option>
-                                                                    <?php
-                                                                    $a = new Conexion();
-                                                                    $sql=("select * from ban_tipo_cuentas WHERE Tip_Detalle_Cuenta='CORRIENTE' ");
-                                                                    $res=$a->execute1($sql);
-                                                                    while($rows=mysqli_fetch_assoc($res))
-                                                                    {
-                                                                        echo "<option value='".$rows['Tip_Cue_Id']."'><font><font>".$rows['Tip_Detalle_Cuenta']."</font></font></option>";
-                                                                    }
-                                                                    ?>
-
-                                                                </select>
-                                                            </div>
+                                                    <div class="col-lg-6 form-group">
+                                                        <label class="col-sm-3 control-label" for="banco">ENTIDAD</label>
+                                                        <div class="col-xs-9">
+                                                            <input type="text" class="form-control" id="banco" name="banco" value="NUESTRO BANCO" onkeypress="return soloLetras(event)" readonly="readonly" >
                                                         </div>
-
                                                     </div>
-                                                    <div id="ahorros" class="tab-pane fade">
-
-
-                                                    </div>
-
-                                                    <div id="menu2" class="tab-pane fade">
-
-                                                    </div>
-                                                    <div id="menu3" class="tab-pane fade">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
                                         </div>
-                                </div><!-- /.box-body -->
-                                        <div class="box-footer">
-                                            <button type="submit" class="btn btn-primary" onclick="valida_envia()" >Registrar</button>
-                                        </div>
-                                    </form>
 
-                            </div><!-- /.box -->
-                        </div><!--/.col (left) -->
-                    </div><!-- /.box-body -->
-                    <div class="box-footer">
-                        Instructores
-                    </div><!-- /.box-footer-->
-                </div><!-- /.box -->
+                                </div>
+                            </div><!-- /.box-body -->
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">Registrar</button>
+                            </div>
+                            </form>
 
-            </section><!-- /.content -->
+                        </div><!-- /.box -->
+                    </div><!--/.col (left) -->
+                </div><!-- /.box-body -->
+        </div><!-- /.box -->
+
+        </section><!-- /.content -->
         </div><!-- /.content-wrapper -->
         <?php
     }
+
     /**
-     *@funcion INSERTAR CLIENTES
+     * @funcion INSERTAR CLIENTES
      */
-    function regi_instructores()
-    {
-        /** @var TYPE_NAME $identificacion */
-        /** @var TYPE_NAME $nombre */
-        /** @var TYPE_NAME $apellido */
-        /** @var TYPE_NAME $salario */
-        /** @var TYPE_NAME $direccion */
-        /** @var TYPE_NAME $fecha */
-        /** @var TYPE_NAME $telefono */
+    function regi_empresas() {
+        
+    $_FILES['imagen']['name']; //nombre del archivo
+    $_FILES['imagen']['type']; //tipo de archivo 
+    $_FILES['imagen']['tmp_name'];//donde esta almacenado r.
+    $_FILES['imagen']['size']; //tamaño en bytes.
+    $_FILES['imagen']['error']; //almacena el codigo de error.
+    if ($_FILES["imagen"]["error"] > 0){
+        echo "ha ocurrido un error";
+    } else {
+            //esta es la ruta donde copiaremos la imagen
+                $name =$_FILES['imagen']['name'];
+                $uploads_dir='../Ban_admin\modulos\cuentas\img\/'.$name;
+                
+            //comprovamos si este archivo existe para no volverlo a copiar.
+            if (is_uploaded_file($_FILES["imagen"]["tmp_name"])){
+                //aqui movemos el archivo desde la ruta temporal a nuestra ruta
+                $resultado = move_uploaded_file($_FILES["imagen"]["tmp_name"],$uploads_dir);
+                if ($resultado){
+                    echo "el archivo ha sido movido exitosamente a .$resultado;";
+                } else {
+                    echo "ocurrio un error al mover el archivo.";
+                }
+            } else {
+                echo $_FILES['imagen']['name'] . ", este archivo existe";
+            }
+    }
+
         $a = new Conexion();
-        $modulo="instructores";
-        $archivo="instructores";
-        $accion="listar";
+        $modulo = "cuentas";
+        $archivo = "cuentas";
+        $accion = "listar";
         date_default_timezone_set('America/Bogota');
         $fecha = date('y-m-d');
         extract($_POST);
 
-
-        $datos = (" $identificacion,'$nombre','$apellido','$direccion','$telefono','$fecha',$salario ");
-        $datos1 = ("Ins_Identificacion, Ins_Nombre, Ins_Apellido, Ins_Direccion, Ins_Telefono, Ins_Fecha_Registro, Ins_Salario, Ins_Estado");
-        echo $sql = ("insert into nic_instructores($datos1) values ($datos,1)");
+        //INSERTO EN LA TABLA CLIENTES
+        $clientes = ("'$nombre','$apellido',$identificacion,'$fecha', $tipo_identificacion" );
+        $datos2 = ("nombre, apellido, num_documento,fecha_registro, tipo_documento_id");
+        $sql = ("insert into cliente($datos2) values ($clientes)");
         $a->execute($sql);
-        $a->mensaje_registro($modulo,$archivo,$accion);
+
+        //SELECCIONO EL ULTIMO CLIENTE INSERTADO
+        $sql = ("SELECT  * from cliente ORDER BY id DESC LIMIT 1");
+        $res = $a->execute1($sql);
+        while ($rows = pg_fetch_assoc($res)) {
+            $id_cli = $rows['id'];
+        }
+        //INSERTO EN LA TABLA CLIENTE PERSONAS JURIDICAS
+        $datos = (" $nit,'$direccion','$correo','$razon_social','$fecha_cos','$uploads_dir','$tipo_empresa',$ciudad,$id_cli");
+        $datos1 = ("nit, direccion, correo, razon_social,fecha_constitucion, camara_comercio, tipo_empresa, ciudad_id,cliente_id");
+        echo $sql = ("insert into persona_juridica ($datos1) values ($datos)");
+        $a->execute($sql);
+        
+        mt_srand(time());
+        $digitos = '';
+        for ($i = 0; $i < 9; $i++) {
+            $num_cuenta .= mt_rand(0, 9);
+        }
+        $cuentas = ("$num_cuenta,$saldo,'$banco','$fecha',$tipo,$id_cli ");
+        $datos4 = ("num_cuenta, saldo, entidad, fecha_registro, tipo_cuenta_id, cliente_id");
+        $sql3 = ("insert into cuenta($datos4) values ($cuentas)");
+        $a->execute($sql3);
+        
+//        $a->mensaje_registro($modulo, $archivo, $accion);        
     }
+
     /*
-     *@funcion MODULOS LISTAR CLIENTES
+     * @funcion MODULOS LISTAR CLIENTES
      */
-    function listar(){
+   function listar() {
         ?>
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    Instructores
-                    <small>Del sistema</small>
+                    Cuentas Bancarias
+                    <small>De los Clientes</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="#"><i class="fa fa-dashboard"></i>Inic&iacute;o</a></li>s
@@ -352,273 +342,638 @@ class cuentas_cuentas_empresas{
 
                         <div class="box">
                             <div class="box-header">
-                                <h3 class="box-title">Instructores</h3>
+                                <h3 class="box-title">Ver todas las Cuentas</h3>
                             </div><!-- /.box-header -->
                             <div class="box-body">
+
                                 <table id="example1" class="table table-bordered table-striped">
                                     <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>IDENTIFICACI&Oacute;N</th>
-                                        <th>NOMBRE</th>
-                                        <th>APELLIDO</th>
-                                        <th>DIRECCION</th>
-                                        <th>TELEFONO</th>
-                                        <th>FECHA DE REGISTRO</th>
-                                        <th>SALARIO</th>
-                                        <th>ESTADO</th>
-                                        <th>EDITAR</th>
-                                    </tr>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>NOMBRE</th>
+                                            <th>APELLIDO</th>
+                                            <th>RAZON SOCIAL</th>
+                                            <th>Numero De Cuenta</th>
+                                            <th>Saldo</th>
+                                            <th>Estado</th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                    <?php
-                                    $a= new Conexion();
-                                    $sql=("select * from nic_instructores");
-                                    $resul=$a->execute1($sql);
-                                    while($rows=mysqli_fetch_array($resul))
-                                    {
-                                        ?>
-                                        <tr>
-                                            <td><?php echo $rows['Ins_Id']; ?></td>
-                                            <td><?php echo $rows['Ins_Identificacion']; ?></td>
-                                            <td><?php echo $rows['Ins_Nombre']; ?></td>
-                                            <td><?php echo $rows['Ins_Apellido']; ?></td>
-                                            <td><?php echo $rows['Ins_Direccion']; ?></td>
-                                            <td><?php echo $rows['Ins_Telefono']; ?></td>
-                                            <td><?php echo $rows['Ins_Fecha_Registro']; ?></td>
-                                            <td><?php echo $rows['Ins_Salario']; ?></td>
-                                            <td><?php
-                                                if($rows['Ins_Estado'] == 1)
-                                                {
-                                                    echo "<span class='label label-success'>
-                                                                <font class='h5'>Activo</font>";
-                                                }else
-                                                {
-                                                    echo "<span class='label label-danger'>
-                                                                <font class='h5'>Inactivo</font>";
-                                                }
-                                                ?>
-                                            </td>
-                                            <td><a class="glyphicon glyphicon-edit" href="<?php echo createrUrl("instructores", "instructores", "modificar"); ?>&Ins_Id=<?php echo $rows['Ins_Id']; ?>"></a></td>
-                                        </tr>
                                         <?php
-                                    }
-                                    ?>
+                                        $a = new Conexion();
+                                        $sql = ("select
+                                                      cl.id,
+                                                      cl.nombre as cliente,
+                                                      cl.apellido,
+                                                      pj.razon_social,
+                                                      c.num_cuenta,
+                                                      c.saldo,
+                                                      c.actived,
+                                                      tc.nombre,
+                                                      c.estado,
+                                                      c.id as id_cuenta
+                                                    from
+                                                      cliente cl,
+                                                      cuenta c,
+                                                      tipo_cuenta tc,
+                                                      persona_juridica pj
+                                                    where
+                                                      cl.id=c.cliente_id
+                                                      And
+                                                      c.tipo_cuenta_id=tc.id
+                                                      AND
+                                                      pj.cliente_id = cl.id
+                                                    ORDER BY c.id;"
+                                                );
+                
+                                        $resul = $a->execute1($sql);
+                                        while ($rows = pg_fetch_array($resul)) {
+                                            ?>
+                                            <tr>
+                                                <td><?php echo $rows['id']; ?></td>
+                                                <td><?php echo $rows['cliente']; ?></td>
+                                                <td><?php echo $rows['apellido']; ?></td>
+                                                <td><?php echo $rows['razon_social']; ?></td>
+                                                <td><?php echo $rows['num_cuenta']; ?></td>
+                                                <td><?php echo $rows['saldo']; ?></td>
+                                                <td><?php
+                                                    if ($rows['actived'] == 't') {
+                                                        echo "<span class='label label-success'>
+                                                                <font class='h5'>Activa</font>";
+                                                    } else {
+                                                        echo "<span class='label label-danger'>
+                                                                <font class='h5'>Inactiva</font>";
+                                                    }
+                                                    ?>
+                                                </td>
+                                                <td><?php 
+                                                
+                                                    if($rows['estado']==1){
+                                                        echo "<span class='label label-warning'>
+                                                                <font class='h5'>Cuenta Principal</font>";
+                                                    } 
+                                                    ?>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn btn-info">Action</button>
+                                                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                            <span class="caret"></span>
+                                                            <span class="sr-only">Toggle Dropdown</span>
+                                                        </button>
+                                                        <?php
+                                                            $sql1=("select  count(ct.id)  AS total, c.id as id_cliente FROM cuenta ct JOIN  cliente c ON ct.cliente_id = c.id JOIN  persona_juridica pj on pj.cliente_id = c.id JOIN tipo_cuenta tc ON ct.tipo_cuenta_id = tc.id WHERE c.id=".$rows['id']." GROUP BY c.id order by c.id");
+                                                            $result= $a->execute1($sql1);        
+                                                            while ($row= pg_fetch_array($result)) 
+                                                             {
+                                                                $total=$row['total'];
+                                                             }
+                                                        ?>
+                                                        <ul class="dropdown-menu" role="menu">
+                                                            <li><a href="<?php echo createrUrl("cuentas", "cuentas_empresas", "modificar"); ?>&id_cuenta=<?php echo $rows['id_cuenta']; ?>" >Editar</a></li>
+                                                            <li><a href="<?php echo createrUrl("cuentas", "cuentas_empresas", "cuenta_nueva_empresa"); ?>&id=<?php echo $rows['id']; ?>" >Cuenta Nueva</a></li>
+                                                            <?php
+                                                           
+                                                            if ($total >=2)
+                                                            {
+                                                                echo  $est= $a->execute1("select estado from cuenta where estado=1 and id= ".$rows['id_cuenta']." ");
+                                                                while ($ro= pg_fetch_array($est))
+                                                                {
+                                                                   $estado=$ro['estado'];
+                                                                }
+                                                                if ($estado==1)
+                                                                {
+                                                                 ?> 
+                                                            <li><a></a></li>
+                                                                 <?php
+                                                                }else
+                                                                {
+                                                                    ?>
+                                                            <li><a href="<?php echo createrUrl("cuentas", "cuentas_empresas", "cuenta_principal"); ?>&id_cuenta=<?php echo $rows['id_cuenta']; ?>" >PONER COMO CUENTA PRINCIPAL</a></li>
+                                                                    <?php 
+                                                                }
+                                                           
+                                                            }
+                                                                
+                                                            ?>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+                                                        <?php
+                                                    }
+                                                    ?>
                                     </tbody>
                                 </table>
+
+              
+                                        </div><!-- /.box-body -->
+                                        </div><!-- /.box -->
+
+
+                                        </div><!-- /.col -->
+                                        </div><!-- /.row -->
+                                        </section><!-- /.content -->
+                                        </div><!-- /.content-wrapper -->
+
+      <?php
+    }
+    /*
+    * @funcion MODULO CUENTA NUEVA
+    */
+    function cuenta_nueva_empresa() {
+                                        $cliente_id = $_GET['id'];
+                                        $a = new Conexion();
+                                        $sql = ("select c.id as id_cliente, c.nombre,c.apellido, c.num_documento, cd.nombre as ciudad, ct.entidad  from cliente c, cuenta ct, persona_juridica pj,ciudad cd
+where c.id= ct.cliente_id AND c.id = pj.cliente_id AND pj.ciudad_id= cd.id AND c.id= $cliente_id");
+                                        $resul = $a->execute1($sql);
+                                        ?>
+                                        <div class="content-wrapper">
+                                            <!-- Content Header (Page header) -->
+                                            <section class="content-header">
+                                                <h1>
+                                                    Clientes
+                                                    <small>Del sistema</small>
+                                                </h1>
+                                                <ol class="breadcrumb">
+                                                    <li><a href="#"><i class="fa fa-dashboard"></i>Inic&iacute;o</a></li>s
+                                                </ol>
+                                            </section>
+
+                                            <!-- Main content -->
+                                            <section class="content">
+                                                <!-- Default box -->
+                                                <div class="box">
+                                                    <div class="box-header with-border">
+                                                        <a class="glyphicon glyphicon-arrow-left" href="<?php echo createrUrl("cuentas", "cuentas_empresas", "listar"); ?>"></a> <center> <h3 class="box-title"><i class="fa fa-users fa-2x"></i>CUENTA NUEVA</h3></center>
+                                                        <div class="box-tools pull-right">
+                                                            <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-body">
+                                                        <div class="box-body">
+                                                            <div class="col-md-12">
+                                                                <!-- general form elements -->
+                                                                <div class="box box-primary">
+                                                                    <div class="box-header">
+                                                                        <h3 class="box-title"></h3>
+                                                                    </div><!-- /.box-header -->
+                                                                    <!-- form start -->
+
+                                                                    <form name="signupForm1" id="signupForm1" class="form-horizontal" method="post" autocomplete="off" action="<?php echo createrUrl("cuentas", "cuentas_empresas", "reg_cuenta_nueva_empresas"); ?>"  >
+                                                                        <?php
+                                                                        while ($datos = pg_fetch_array($resul)) {
+                                                                            $id = $datos['id_cliente'];
+                                                                            $documento = $datos['num_documento'];
+                                                                            $nombre = $datos['nombre'];
+                                                                            $apellido = $datos['apellido'];
+                                                                            $ciudad = $datos['ciudad'];
+                                                                        }
+                                                                        ?>
+                                                                        <div class="box-body">
+
+                                                                            <div class="col-xs-12">
+                                                                                <h2 class="page-header">
+                                                                                    <i class="fa fa-user"></i><font><font>Cuenta Nueva
+                                                                                </h2>
+                                                                            </div>
+
+        <?php
+        $dias = array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado");
+        $meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+        $fecha = date('d') . " de " . $meses[date('n') - 1] . " del " . date('Y');
+        ?>  
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="col-sm-3 control-label" for="identificacion">Fecha</label>
+                                                                                <div class="col-xs-6">
+                                                                                    <input type="text" class="form-control" id="identificacion" name="fecha" value="<?php echo $fecha; ?>" placeholder="Identificaci&oacute;n"  readonly="">                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="col-sm-3 control-label" for="identificacion">Identificaci&oacute;n</label>
+                                                                                <div class="col-xs-9">
+                                                                                    <input type="text" value="<?php echo $documento ?>" class="form-control" id="documento" name="documento" placeholder="Identificaci&oacute;n" onkeypress="return soloNumeros(event)" readonly="readonly">
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="col-sm-3 control-label" for="nombre">Nombre</label>
+                                                                                <div class="col-xs-9">
+                                                                                    <input type="text" class="form-control" value="<?php echo $nombre; ?>" id="nombre" name="nom" placeholder="Nombre Cliente" onkeypress="return soloLetras(event)" readonly="readonly">
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="col-sm-3 control-label" for="apellido">Apellido</label>
+                                                                                <div class="col-xs-9">
+                                                                                    <input type="text" class="form-control" value="<?php echo $apellido; ?>" id="apellido" name="ape" placeholder="Apellido Cliente" onkeypress="return soloLetras(event)"  readonly="readonly" >
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="control-label col-sm-3" for="ciudad">Ciudad</label>
+                                                                                <div class="col-xs-9">
+                                                                                    <input type="text" class="form-control" id="ciudad" name="ciudad" value="<?php echo $ciudad; ?>" onkeypress="return soloLetras(event)" readonly="readonly" >
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="col-sm-3 control-label" for="banco">ENTIDAD</label>
+                                                                                <div class="col-xs-9">
+                                                                                    <input type="text" class="form-control" id="entidad" name="entidad" value="NUESTRO BANCO" onkeypress="return soloLetras(event)" readonly="readonly" >
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="col-sm-3 control-label" for="tipo">TIPO DE CUENTA</label>
+                                                                                <div class="col-xs-9">
+                                                                                    <select class="form-control" name="tipo" id="tipo">
+                                                                                        <?php
+                                                                                        $a = new Conexion();
+                                                                                        $sql = ("select * from tipo_cuenta where nombre='AHORROS'");
+                                                                                        $res = $a->execute1($sql);
+                                                                                        while ($rows = pg_fetch_array($res)) {
+                                                                                            echo "<option value='" . $rows['id'] . "'><font><font>" . $rows['nombre'] . "</font></font></option>";
+                                                                                        }
+                                                                                        ?>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-6 form-group">
+                                                                                <label class="col-sm-3 control-label" for="saldo">SALDO</label>
+                                                                                <div class="col-xs-9">
+                                                                                    <input type="text" class="form-control" id="saldo" name="saldo" placeholder="$" onkeypress="return soloNumeros(event)">
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <input type="hidden" value="<?php echo $id ?>" class="form-control" id="cliente" name="cliente">
+
+                                                                        </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div><!-- /.box-body -->
+                                                        <div class="box-footer">
+                                                            <button type="submit" class="btn btn-primary" onclick="valida_envia()" >Registrar</button>
+                                                        </div>
+                                                        </form>   
+                                                    </div><!-- /.box -->
+                                                </div><!--/.col (left) -->
+                                        </div><!-- /.box-body -->
+                                        <div class="box-footer">
+                                            Usuarios
+                                        </div><!-- /.box-footer-->
+                                </div><!-- /.box -->
+
+                                </section><!-- /.content -->
+                            </div><!-- /.content-wrapper -->
+                            <?php
+                        }
+                        /*
+    * @funcion MODULO reg cuenta nueva
+    */
+    function reg_cuenta_nueva_empresas() {
+                            $a = new Conexion();
+                            $modulo = "cuentas";
+                            $archivo = "cuentas";
+                            $accion = "listar";
+
+                            date_default_timezone_set('America/Bogota');
+                            $fecha_registro = date('y-m-d');
+                            extract($_POST);
+
+//INSERTO EN LA TABLA CUENTAS
+                            mt_srand(time());
+                            $digitos = '';
+                            for ($i = 0; $i < 9; $i++) {
+                                $num_cuenta .= mt_rand(0, 9);
+                            }
+                            $cuentas = ("$num_cuenta,$saldo,'$entidad','$fecha_registro',$tipo,$cliente ");
+                            $datos4 = ("num_cuenta, saldo, entidad, fecha_registro, tipo_cuenta_id, cliente_id");
+                            $sql3 = ("insert into cuenta($datos4) values ($cuentas)");
+                            $a->execute($sql3);
+                            $a->mensaje_registro($modulo,$archivo,$accion);
+                            // }
+                        }
+    /*
+    * @funcion MODULO cuenta principal
+    */
+    function cuenta_principal(){
+        $a = new Conexion();
+        $modulo = "cuentas";
+        $archivo = "cuentas";
+        $accion = "listar";
+        $id_cuenta = $_GET['id_cuenta'];
+        $principal = 1;
+        echo $sql9 = ("update cuenta set estado=$principal where id=$id_cuenta");
+        $a->execute($sql9);
+//        $a->mensaje_actualizar($modulo,$archivo,$accion);
+
+     }                        
+    /*
+     * @funcion MODULO MODIFICAR CLIENE
+     */
+    function modificar() {
+                            $id_cuenta = $_GET['id_cuenta'];
+                            $a = new Conexion();
+                            $sql = ("select cu.id as id_cuenta, c.id,c.nombre, c.apellido,
+                                       pj.direccion, pj.ciudad_id,pj.nit, pj.correo, pj.razon_social, cu.actived as estado_cuenta, tp.nombre as tipocuenta , c.actived as estado_cliente from cliente c
+                                      JOIN persona_juridica pj
+                                        on c.id = pj.cliente_id
+                                      join cuenta cu
+                                        ON c.id = cu.cliente_id
+                                      JOIN tipo_cuenta tp
+                                        ON cu.tipo_cuenta_id = tp.id
+                                        WHERE cu.id=$id_cuenta");
+                            $resul = $a->execute1($sql);
+                            ?>
+                            <div class="content-wrapper">
+                                <!-- Content Header (Page header) -->
+                                <section class="content-header">
+                                    <h1>
+                                        Usuarios
+                                        <small>Del sistema</small>
+                                    </h1>
+                                    <ol class="breadcrumb">
+                                        <li><a href="#"><i class="fa fa-dashboard"></i>Inic&iacute;o</a></li>s
+                                    </ol>
+                                </section>
+
+                                <!-- Main content -->
+                                <section class="content">
+                                    <!-- Default box -->
+                                    <div class="box">
+                                        <div class="box-header with-border">
+                                            <a class="glyphicon glyphicon-arrow-left" href="<?php echo createrUrl("cuentas", "cuentas", "listar"); ?>"></a> <center> <h3 class="box-title"><i class="fa fa-users fa-2x"></i>MODIFICAR CLIENTES</h3></center>
+                                            <div class="box-tools pull-right">
+                                                <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="box-body">
+                                            <div class="box-body">
+                                                <div class="col-md-12">
+                                                    <!-- general form elements -->
+                                                    <div class="box box-primary">
+                                                        <div class="box-header">
+                                                            <h3 class="box-title"></h3>
+                                                        </div><!-- /.box-header -->
+                                                        <!-- form start -->
+
+                                                        <form name="signupForm1" id="signupForm1" class="form-horizontal" method="post" autocomplete="off" action="<?php echo createrUrl("cuentas", "cuentas_empresas", "actualizar"); ?>"  >
+                                                            <?php
+                                                            while ($datos = pg_fetch_array($resul)) {
+                                                                $id_cliente = $datos['id']
+                                                                ?>
+                                                                <div class="box-body">
+
+                                                                    <div class="col-xs-12">
+                                                                        <h2 class="page-header">
+                                                                            <i class="fa fa-user"></i><font><font>Actualizar Informacion General
+                                                                        </h2>
+                                                                    </div>
+  
+                                                                    <div class="col-lg-6 form-group">
+                                                                        <label class="col-sm-3 control-label" for="nombre">Nombre</label>
+                                                                        <div class="col-xs-9">
+                                                                            <input type="text" class="form-control" value="<?php echo $datos['nombre'] ?>" id="nombre" name="nombre" placeholder="Nombre Cliente" onkeypress="return soloLetras(event)">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6 form-group">
+                                                                        <label class="col-sm-3 control-label" for="apellido">Apellido</label>
+                                                                        <div class="col-xs-9">
+                                                                            <input type="text" class="form-control" value="<?php echo $datos['apellido'] ?>" id="apellido" name="apellido" placeholder="Apellido Cliente" onkeypress="return soloLetras(event)">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6 form-group">
+                                                                        <label class="col-sm-3 control-label" for="direccion">Direccion</label>
+                                                                        <div class="col-xs-9">
+                                                                            <input type="text" class="form-control" value="<?php echo $datos['direccion'] ?>" id="direccion" name="direccion" placeholder="Direccion">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6 form-group">
+                                                                        <label class="col-sm-3 control-label" for="telefono">Nit</label>
+                                                                        <div class="col-xs-9">
+                                                                            <input type="text" class="form-control" value="<?php echo $datos['nit'] ?>" id="nit" name="nit" placeholder="Telefono" onkeypress="return soloNumeros(event)">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6 form-group" >
+                                                                        <label class="col-sm-3 control-label" for="Correo">Correo</label>
+                                                                        <div class="col-xs-9">
+                                                                            <input type="email" value="<?php echo $datos['correo'] ?> "class="form-control" id="correo" name="correo">
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="col-lg-6 form-group" >
+                                                                        <label class="col-sm-3 control-label" for="Correo">Razon Social</label>
+                                                                        <div class="col-xs-9">
+                                                                            <input type="text" value="<?php echo $datos['razon_social'] ?> "class="form-control" id="razon" name="razon">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6 form-group">
+                                                                        <label class="control-label col-sm-3" for="ciudad">Ciudad</label>
+                                                                        <div class="col-xs-9">
+                                                                            <select class="form-control" name="ciudad" id="ciudad">
+                                                                                <?php
+                                                                                $a = new Conexion();
+                                                                                $sql = ("select * from ciudad");
+                                                                                $res = $a->execute1($sql);
+                                                                                while ($rows = pg_fetch_array($res)) {
+                                                                                    $ciud = $datos['ciudad_id'];
+                                                                                    if ($ciud == $rows['id']) {
+                                                                                        echo "<option value='" . $rows['id'] . "' selected ><font><font>" . $rows['nombre'] . "</font></font></option>";
+                                                                                    } else {
+                                                                                        echo "<option value='" . $rows['id'] . "'><font><font>" . $rows['nombre'] . "</font></font></option>";
+                                                                                    }
+                                                                                }
+                                                                                ?>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="form-group  col-lg-6">
+                                                                        <label class="control-label col-sm-3" for="usuarioEstado">Estado Cliente</label>
+                                                                        <div class="col-xs-9">
+                                                                            <?php
+                                                                            if ($datos['estado_cliente'] == 't') {
+                                                                                ?>
+                                                                                <div class="input-group has-success">
+                                                                                    <div class="input-group-btn">
+                                                                                        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><font><font>Acción</font></font><span class="fa fa-caret-down"></span></button>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><input type="button" value="Inactivar" name="aqui" class="btn btn-block btn-flat btn-danger" id="ejemplo5"></li>
+                                                                                        </ul>
+                                                                                    </div><!-- /btn-group -->
+                                                                                    <input type="text" value="Activo" id="valor5" name="valor5" class="form-control" readonly="readonly">
+                                                                                </div>
+                                                                                    <?php
+                                                                                } else {
+                                                                                    ?>
+                                                                                <div class="input-group has-error">
+                                                                                    <div class="input-group-btn">
+                                                                                        <button type="button" class="btn btn-danger dropdown-toggle"  data-toggle="dropdown" aria-expanded="false"><font><font>Acción</font></font><span class="fa fa-caret-down"></span></button>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><input type="button" value="Activar" name="aqui" class="btn btn-block btn-flat btn-success" id="ejemplo6"></li>
+                                                                                        </ul>
+                                                                                    </div><!-- /btn-group -->
+                                                                                    <input type="text"  value="Inactivo" name="valor6" id="valor6" class="form-control" readonly="readonly">
+                                                                                </div>
+
+                                                                            <?php
+                                                                        }
+                                                                        ?>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-xs-12">
+                                                                        <h2 class="page-header">
+                                                                            <i class="fa fa-globe"></i><font><font>Actualizar Cuenta
+                                                                        </h2>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6 form-group">
+                                                                        <label class="col-sm-3 control-label" for="banco">ENTIDAD</label>
+                                                                        <div class="col-xs-9">
+                                                                            <input type="text" class="form-control" id="banco" name="banco" value="NUESTRO BANCO" onkeypress="return soloLetras(event)" readonly="readonly" >
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-lg-6 form-group">
+                                                                        <label class="col-sm-3 control-label" for="tipo">TIPO DE CUENTA</label>
+                                                                        <div class="col-xs-9">
+                                                                            <div class="col-xs-9">
+                                                                                <input type="text" class="form-control" id="tipocuenta" name="tipocuenta" value="<?php echo $datos['tipocuenta'] ?>" onkeypress="return soloLetras(event)" readonly="readonly" >
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="form-group col-lg-6">
+                                                                        <label class="control-label col-sm-3" for="usuarioEstado">Estado Cuenta</label>
+                                                                        <div class="col-xs-9">
+                                                                                <?php
+                                                                                if ($datos['estado_cuenta'] == 't') {
+                                                                                    ?>
+                                                                                <div class="input-group has-success">
+                                                                                    <div class="input-group-btn">
+                                                                                        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><font><font>Acción</font></font><span class="fa fa-caret-down"></span></button>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><input type="button" value="Inactivar" name="aqui" class="btn btn-block btn-flat btn-danger" id="ejemplo7"></li>
+                                                                                        </ul>
+                                                                                    </div><!-- /btn-group -->
+                                                                                    <input type="text" value="Activo" id="valor7" name="valor7" class="form-control" readonly="readonly">
+                                                                                </div>
+                                                                                        <?php
+                                                                                    } else {
+                                                                                        ?>
+                                                                                <div class="input-group has-error">
+                                                                                    <div class="input-group-btn">
+                                                                                        <button type="button" class="btn btn-danger dropdown-toggle"  data-toggle="dropdown" aria-expanded="false"><font><font>Acción</font></font><span class="fa fa-caret-down"></span></button>
+                                                                                        <ul class="dropdown-menu">
+                                                                                            <li><input type="button" value="Activar" name="aqui" class="btn btn-block btn-flat btn-success" id="ejemplo8"></li>
+                                                                                        </ul>
+                                                                                    </div><!-- /btn-group -->
+                                                                                    <input type="text"  value="Inactivo" name="valor8" id="valor8" class="form-control" readonly="readonly">
+                                                                                </div>
+
+                                                                            <?php
+                                                                        }
+                                                                        ?>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input type="hidden" name="id_cliente" value="<?php echo $id_cliente ?>" id="id_cliente">
+                                                                    <input type="hidden" name="id_cuenta" value="<?php echo $id_cuenta ?>" id="id_cuenta">
+
+                                                                </div>
+                                                                <?php
+                                                            }
+                                                            ?>
+                                                    </div>
+
+                                                </div>
+                                            </div><!-- /.box-body -->
+                                            <div class="box-footer">
+                                                <button type="submit" class="btn btn-primary" onclick="valida_envia()" >Actualizar</button>
+                                            </div>
+                                            </form>   
+                                        </div><!-- /.box -->
+                                    </div><!--/.col (left) -->
                             </div><!-- /.box-body -->
+                            <div class="box-footer">
+                                Usuarios
+                            </div><!-- /.box-footer-->
                         </div><!-- /.box -->
 
+                        </section><!-- /.content -->
+                    </div><!-- /.content-wrapper -->
 
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-            </section><!-- /.content -->
-        </div><!-- /.content-wrapper -->
+                    <?php
+                }
 
-        <?php
-    }
     /*
-    *@funcion MODULO MODIFICAR CLIENE
-    */
-    function modificar()
-    {
-        $ins_id=$_GET['Ins_Id'];
-        $a = new Conexion();
-        $sql=("select * from nic_instructores WHERE Ins_Id= $ins_id");
-        $resul=$a->execute1($sql);
-        ?>
-        <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <h1>
-                    Usuarios
-                    <small>Del sistema</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i>Inic&iacute;o</a></li>s
-                </ol>
-            </section>
-
-            <!-- Main content -->
-            <section class="content">
-                <!-- Default box -->
-                <div class="box">
-                    <div class="box-header with-border">
-                        <a class="glyphicon glyphicon-arrow-left" href="<?php echo createrUrl("instructores", "instructores", "listar"); ?>"></a> <center> <h3 class="box-title"><i class="fa fa-users fa-2x"></i>MODIFICAR USUARIOS</h3></center>
-                        <div class="box-tools pull-right">
-                            <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                        </div>
-                    </div>
-                    <div class="box-body">
-                        <div class="box-body">
-                            <div class="col-md-12">
-                                <!-- general form elements -->
-                                <div class="box box-primary">
-                                    <div class="box-header">
-                                        <h3 class="box-title"></h3>
-                                    </div><!-- /.box-header -->
-                                    <!-- form start -->
-                                    <form name="ejemplo5" role="form" class="form-horizontal fv-form fv-form-bootstrap" method="post" autocomplete="off" action="<?php echo createrUrl("instructores", "instructores", "actualizar"); ?>" >
-                                        <div class="box-body">
-                                            <?php
-                                            while($row=mysqli_fetch_array($resul))
-                                            {
-                                                $id=$row['Ins_Id']
-                                                ?>
-
-                                                <div class="form-group">
-                                                    <label class="control-label col-sm-2" for="usuarioIdentificacion">Identificaci&oacute;n</label>
-
-                                                    <div class="col-sm-4">
-                                                        <input type="text" value="<?php echo $row['Ins_Identificacion']?>" class="form-control" id="identificacion" name="identificacion" placeholder="Identificaci&oacute;n" required="required" readonly="readonly">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label class="control-label col-sm-2" for="usuarioNombre">Nombre</label>
-
-                                                    <div class="col-sm-4">
-                                                        <input type="text" value="<?php echo $row['Ins_Nombre']?>" class="form-control" id="nombre" name="nombre" placeholder="Nombre Usuario">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label class="control-label col-sm-2" for="usuarioApellido">Apellido</label>
-
-                                                    <div class="col-sm-4">
-                                                        <input type="text"  value="<?php echo $row['Ins_Apellido']?>"  class="form-control" id="apellido" name="apellido" placeholder="Apellido Usuario">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label class="control-label col-sm-2" for="usuarioDireccion">Direcci&oacute;n</label>
-
-                                                    <div class="col-sm-4">
-                                                        <input type="text"  value="<?php echo $row['Ins_Direccion']?>"  class="form-control" id="direccion" name="direccion" placeholder="Direccion">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label class="control-label col-sm-2" for="contrasena">Telefono</label>
-                                                    <div class="col-sm-4">
-                                                        <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Telefono" value="<?php echo $row['Ins_Telefono']?>">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label class="control-label col-sm-2" for="confirmar_contrasena">Salario</label>
-                                                    <div class="col-sm-4">
-                                                        <input type="text" name="salario" id="salario" class="form-control" onkeypress="return soloNumeros(event)" placeholder="$ Salario" value="<?php echo $row['Ins_Salario']?>">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label class="control-label col-sm-2" for="usuarioEstado">Cambiar Estado</label>
-
-                                                    <div class="col-sm-4">
-                                                        <?php
-                                                        if ($row['Ins_Estado']==1 )
-                                                        {
-                                                            ?>
-                                                            <div class="input-group has-success">
-                                                                <div class="input-group-btn">
-                                                                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><font><font>Acción</font></font><span class="fa fa-caret-down"></span></button>
-                                                                    <ul class="dropdown-menu">
-                                                                        <li><input type="button" value="Inactivar" name="aqui" class="btn btn-block btn-flat btn-danger" id="ejemplo5"></li>
-                                                                    </ul>
-                                                                </div><!-- /btn-group -->
-                                                                <input type="text" value="Activo" id="valor5" name="valor5" class="form-control" readonly="readonly">
-                                                            </div>
-                                                            <?php
-                                                        }
-                                                        else
-                                                        {
-                                                            ?>
-                                                            <div class="input-group has-error">
-                                                                <div class="input-group-btn">
-                                                                    <button type="button" class="btn btn-danger dropdown-toggle"  data-toggle="dropdown" aria-expanded="false"><font><font>Acción</font></font><span class="fa fa-caret-down"></span></button>
-                                                                    <ul class="dropdown-menu">
-                                                                        <li><input type="button" value="Activar" name="aqui" class="btn btn-block btn-flat btn-success" id="ejemplo6"></li>
-                                                                    </ul>
-                                                                </div><!-- /btn-group -->
-                                                                <input type="text"  value="Inactivo" name="valor6" id="valor6" class="form-control" readonly="readonly">
-                                                            </div>
-                                                            <?php
-                                                        }
-                                                        ?>
-                                                    </div>
-                                                </div>
-                                                <?php
-                                            }
-                                            ?>
-                                        </div>
-                                </div><!-- /.box-body -->
-                                <div class="box-footer">
-                                    <button type="submit" name="Ins_Id" value="<?php echo $id?>" class="btn btn-primary">Modificar</button>
-                                </div>
-                                </form>
-                            </div><!-- /.box -->
-                        </div><!--/.col (left) -->
-                    </div><!-- /.box-body -->
-                    <div class="box-footer">
-                        Usuarios
-                    </div><!-- /.box-footer-->
-                </div><!-- /.box -->
-
-            </section><!-- /.content -->
-        </div><!-- /.content-wrapper -->
-
-        <?php
-    }
-    /*
-     *@funcion ACTUALIZAR INSTRUCTORES
+     * @funcion ACTUALIZAR INSTRUCTORES
      */
-    function actualizar()
-    {
-        /** @var TYPE_NAME $identificacion */
-        /** @var TYPE_NAME $Ins_Id */
-        /** @var TYPE_NAME $nombre */
-        /** @var TYPE_NAME $apellido */
-        /** @var TYPE_NAME $salario */
-        /** @var TYPE_NAME $direccion */
-        /** @var TYPE_NAME $telefono */
-        /** @var TYPE_NAME $estado */
-        /** @var TYPE_NAME $valor5 */
-        /** @var TYPE_NAME $valor6 */
-        $a = new Conexion();
-        $modulo="instructores";
-        $archivo="instructores";
-        $accion="listar";
-        extract($_POST);
-        $datos = ("$Ins_Id,$identificacion,'$nombre','$apellido','$direccion','$telefono',$salario ");
-        if ($valor5=='Activo')
-        {
-            echo $sql1=("update nic_instructores set Ins_Identificacion=$identificacion, Ins_Nombre='$nombre', Ins_Apellido='$apellido',Ins_Direccion='$direccion',Ins_Telefono='$telefono', Ins_Salario=$salario WHERE Ins_Id=$Ins_Id");
-            $a->execute($sql1);
-            $a->mensaje_actualizar($modulo,$archivo,$accion);
-        }
-        elseif ($valor5=="Inactivo")
-        {
-            $estadoInactivo5="2";
-            echo $sql=("update nic_instructores set Ins_Identificacion=$identificacion, Ins_Nombre='$nombre', Ins_Apellido='$apellido',Ins_Direccion='$direccion',Ins_Telefono='$telefono', Ins_Salario=$salario, Ins_Estado=$estadoInactivo5 WHERE Ins_Id=$Ins_Id");
-            $a->execute($sql);
-            $a->mensaje_actualizar($modulo,$archivo,$accion);
-        }
-        elseif($valor6=="Inactivo")
-        {
-            echo  $sql1=("update nic_instructores set Ins_Identificacion=$identificacion, Ins_Nombre='$nombre', Ins_Apellido='$apellido',Ins_Direccion='$direccion',Ins_Telefono='$telefono', Ins_Salario=$salario WHERE Ins_Id=$Ins_Id");
-            $a->execute($sql1);
-            $a->mensaje_actualizar($modulo,$archivo,$accion);
-        }
-        elseif($valor6=="Activo"){
-            $estadoInactivo6="1";
-            echo  $sql=("update nic_instructores set Ins_Identificacion=$identificacion, Ins_Nombre='$nombre', Ins_Apellido='$apellido',Ins_Direccion='$direccion',Ins_Telefono='$telefono', Ins_Salario=$salario, Ins_Estado=$estadoInactivo6 WHERE Ins_Id=$Ins_Id");
-            $a->execute($sql);
-            $a->mensaje_actualizar($modulo,$archivo,$accion);
-        }
 
+   function actualizar() {
+                    $a = new Conexion();
+                    $modulo = "cuentas";
+                    $archivo = "cuentas_empresas";
+                    $accion = "listar";
+                    extract($_POST);
+                    if ($valor5 == 'Activo') {
 
-    }
+                        echo $sql1 = ("update cliente set nombre='$nombre', apellido='$apellido' WHERE id=$id_cliente");
+                        echo $sql2 = ("update persona_juridica set nit=$nit, direccion='$direccion', correo='$correo',razon_social='$razon' where cliente_id=$id_cliente");
+                        $a->execute($sql1);
+                        $a->execute($sql2);
+                        $a->mensaje_actualizar($modulo, $archivo, $accion);
+                    } elseif ($valor5 == "Inactivo") {
+                        $estadoInactivo5 = "false";
+                        echo $sql3 = ("update cliente set nombre='$nombre', apellido='$apellido', Actived=$estadoInactivo5 WHERE id=$id_cliente");
+                        echo $sql4 = ("update cuenta set Actived=$estadoInactivo5 where cliente_id=$id_cliente");
+                        $a->execute($sql3);
+                        $a->execute($sql4);
+                        $a->mensaje_actualizar($modulo, $archivo, $accion);
+                    } elseif ($valor6 == "Inactivo") {
+                        echo $sql5 = ("update cliente set nombre='$nombre', apellido='$apellido' WHERE id=$id_cliente");
+                        echo $sql6 = ("update persona_juridica set nit=$nit, direccion='$direccion', correo='$correo',razon_social='$razon' where cliente_id=$id_cliente");
+                        $a->execute($sql5);
+                        $a->execute($sql6);
+                        $a->mensaje_actualizar($modulo, $archivo, $accion);
+                    } elseif ($valor6 == "Activo") {
+                        $estadoInactivo6 = "true";
+                        echo $sql7 = ("update cliente set nombre='$nombre', apellido='$apellido' , Actived=$estadoInactivo6 WHERE id=$id_cliente");
+                        echo $sql8 = ("update cuenta set Actived=$estadoInactivo6 where cliente_id=$id_cliente");
+                        $a->execute($sql7);
+                        $a->execute($sql8);
+                        $a->mensaje_actualizar($modulo, $archivo, $accion);
+                    }
+                    if ($valor7 == 'Activo') {
+                        
+                    } elseif ($valor7 == "Inactivo") {
+                        $estadoInactivo7 = "false";
+                        echo $sql9 = ("update cuenta set Actived=$estadoInactivo7 where id=$id_cuenta");
+                        $a->execute($sql9);
+                        $a->mensaje_actualizar($modulo, $archivo, $accion);
 
+                    } elseif ($valor8 == "Inactivo") {
+                        
+                    } elseif ($valor8 == "Activo") {
+                        $estadoInactivo8 = "true";
+                        echo $sql01 = ("update cuenta set Actived=$estadoInactivo8 where id=$id_cuenta");
+                        $a->execute($sql01);
+                        $a->mensaje_actualizar($modulo, $archivo, $accion);
+                    }
+                }
 
 }

@@ -18,6 +18,27 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function() {
+    $('#ejemplo7').click(function() {
+        //alert($('button[id=ejemplo5]').val());
+        //var text = $(this).attr('value');
+        $('#valor7').attr('value','Inactivo');
+    });
+});
+
+$(document).ready(function() {
+    $('#ejemplo8').click(function() {
+        //alert($('button[id=ejemplo5]').val());
+        //var text = $(this).attr('value');
+        $('#valor8').attr('value','Activo');
+    });
+});
+
+
+
+
+
+
 function soloLetras(e) {
     key = e.keyCode || e.which;
     tecla = String.fromCharCode(key).toLowerCase();
