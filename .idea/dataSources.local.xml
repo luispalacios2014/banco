@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - sistema_banco@localhost" uuid="4b62537d-f6ce-4cd5-bcc6-e95195adc946">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>sistema_banco.*</schema-pattern>
+      <default-schemas>sistema_banco.*</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - sistemabanco@localhost" uuid="308623a7-73e4-4c31-9100-309433ca2472">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>sistemabanco.pg_catalog sistemabanco.public</schema-pattern>
+      <default-schemas>sistemabanco.public</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - BANCO@localhost" uuid="e6b38d00-f844-4840-9505-a1056d61dad0">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>BANCO.pg_catalog BANCO.public</schema-pattern>
+      <default-schemas>BANCO.public</default-schemas>
+    </data-source>
+  </component>
+</project>

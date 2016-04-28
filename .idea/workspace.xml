@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56bdb1e8-829d-468d-8095-0311aceca063" name="Default" comment="" />
+    <ignored path="sistemabanco.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - sistemabanco@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - sistemabanco@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - sistemabanco@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sistemabanco" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sistemabanco.public.cliente" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.cliente">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BANCO.public.cliente" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/bc1d1b87/e6b38d00-f844-4840-9505-a1056d61dad0/BANCO.public.cliente">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/308623a7-73e4-4c31-9100-309433ca2472/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81400967">
+              <caret line="152" column="271" selection-start-line="152" selection-start-column="271" selection-end-line="152" selection-end-column="271" />
+              <folding>
+                <element signature="e#0#302#0" expanded="false" />
+                <element signature="e#306#524#0" expanded="false" />
+                <element signature="e#529#735#0" expanded="false" />
+                <element signature="e#872#1050#0" expanded="false" />
+                <element signature="e#1055#1337#0" expanded="false" />
+                <element signature="e#1341#1713#0" expanded="false" />
+                <element signature="e#1717#2155#0" expanded="false" />
+                <element signature="e#2158#2224#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sistemabanco.public.cuenta" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.cuenta">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sistemabanco.public.persona_juridica" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.persona_juridica">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/head.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/footer.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/sidebar.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/Conexion2.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/Conexion.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/app/head.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/app/content.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/app/sidebar.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/app/footer.php" />
+        <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/app/login/funciones.php" />
+        <option value="$PROJECT_DIR$/app/funciones.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/content_grap.php" />
+        <option value="$PROJECT_DIR$/app/content.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/Ban_Admin_index.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/config.php" />
+        <option value="$PROJECT_DIR$/librerias/Disenno.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/diseno.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/index_loader.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/content.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/app/header.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/header.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/Modulos/cuentas/index.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/index.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/Modulos/clientes/clientes.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/menu.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/app/funciones.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/principal.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/librerias/Disenno.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/estilos/header.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/clientes/clientes.php" />
+        <option value="$PROJECT_DIR$/Ban_Admin/estilos/funciones.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/clientes.php" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/head.php" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/js/select.php" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/select.php" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/js/validacion.js" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/librerias/select.php" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/js/select.js" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/librerias/head.php" />
+        <option value="$PROJECT_DIR$/librerias/Conexion.php" />
+        <option value="$PROJECT_DIR$/app/sidebar.php" />
+        <option value="$PROJECT_DIR$/dist/js/require_form2.js" />
+        <option value="$PROJECT_DIR$/app/header.php" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/cuentas_empresas.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4b62537d-f6ce-4cd5-bcc6-e95195adc946/console.sql" />
+        <option value="$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/cuentas.php" />
+        <option value="dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.tipo_documento" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/308623a7-73e4-4c31-9100-309433ca2472/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sistemabanco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conteo" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="Console.TableResult.DefaultCopyAction" value="Tab Separated Values (TSV)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\sistemabanco\Administracion\Ban_admin\modulos\cuentas" />
+      <recent name="C:\wamp64\www\sistemabanco\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sistemabanco" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sistemabanco" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56bdb1e8-829d-468d-8095-0311aceca063" name="Default" comment="" />
+      <created>1461083316508</created>
+      <option name="number" value="Default" />
+      <updated>1461083316508</updated>
+      <workItem from="1461083318563" duration="35995000" />
+      <workItem from="1461172005158" duration="18357000" />
+      <workItem from="1461208432709" duration="10833000" />
+      <workItem from="1461283189141" duration="4623000" />
+      <workItem from="1461437726201" duration="7254000" />
+      <workItem from="1461451839519" duration="56511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="133573000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13700788" sideWeight="0.49487555" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49133858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25669292" sideWeight="0.50512445" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09757943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0892587" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Ban_Admin/Modulos/clientes/clientes.php</url>
+          <line>465</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/librerias/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/cuentas_empresas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4b62537d-f6ce-4cd5-bcc6-e95195adc946/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2255" column="0" selection-start-line="2255" selection-start-column="0" selection-end-line="2255" selection-end-column="36" />
+          <folding>
+            <marker date="1461446847521" expanded="true" signature="58798:58830" placeholder="insert into ban_clase_empresa..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/Administracion/Gym_admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gym/Administracion/Gym_admin/loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.269231">
+          <caret line="893" column="6" selection-start-line="893" selection-start-column="6" selection-end-line="893" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/examples/invoice-print.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45698926">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librerias/Disenno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-61.153847">
+          <caret line="149" column="40" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/UI/general.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03046595">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/lib/jquery-1.8.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321918">
+          <caret line="5240" column="8" selection-start-line="5240" selection-start-column="8" selection-end-line="5240" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321918">
+          <caret line="546" column="8" selection-start-line="546" selection-start-column="8" selection-end-line="546" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/librerias/select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09139785">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/librerias/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/js/validacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1934931">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/js/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/require_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0941781">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/require_form2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="23" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librerias/LoaderMod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librerias/Conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36021507">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/clientes/clientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1917562">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.ciudad">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librerias/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/cuentas_empresas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029259896">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4b62537d-f6ce-4cd5-bcc6-e95195adc946/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18227848">
+          <caret line="2263" column="0" selection-start-line="2263" selection-start-column="0" selection-end-line="2263" selection-end-column="0" />
+          <folding>
+            <marker date="1461446847521" expanded="true" signature="58798:58830" placeholder="insert into ban_clase_empresa..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administracion/Ban_admin/modulos/cuentas/cuentas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="464" column="44" selection-start-line="464" selection-start-column="44" selection-end-line="464" selection-end-column="54" />
+          <folding>
+            <element signature="n#registrar#0;n#cuentas_cuentas#0;n#!!top" expanded="false" />
+            <element signature="n#regi_cuentas#0;n#cuentas_cuentas#0;n#!!top" expanded="false" />
+            <marker date="1461717366483" expanded="true" signature="4645:4677" placeholder="select * fro..ban_tipo_documento..." />
+            <marker date="1461717366483" expanded="true" signature="11125:11145" placeholder="select * fro..ciudad..." />
+            <marker date="1461717366483" expanded="true" signature="15002:15069" placeholder="select * fro..ban_tipo_cuentas..." />
+            <marker date="1461717366483" expanded="true" signature="17523:17590" placeholder="select * fro..ban_tipo_cuentas..." />
+            <marker date="1461717366483" expanded="true" signature="20220:20274" placeholder="insert into ban_clientes..." />
+            <marker date="1461717366483" expanded="true" signature="20322:20378" placeholder="SELECT * fro..ban_clientes..." />
+            <marker date="1461717366483" expanded="true" signature="20758:20839" placeholder="insert into ban_clientes_personas_naturales..." />
+            <marker date="1461717366483" expanded="true" signature="20889:20972" placeholder="SELECT * fro..ban_clientes_personas_naturales..." />
+            <marker date="1461717366483" expanded="true" signature="21252:21300" placeholder="insert into ban_telefonos..." />
+            <marker date="1461717366483" expanded="true" signature="21571:21621" placeholder="insert into ban_cuentas..." />
+            <marker date="1461717366483" expanded="true" signature="23780:24158" placeholder="select c.Cli..ban_clientes..." />
+            <marker date="1461717366483" expanded="true" signature="25389:25484" placeholder="..." />
+            <marker date="1461717366483" expanded="true" signature="25603:25700" placeholder="..." />
+            <marker date="1461717366483" expanded="true" signature="26772:26817" placeholder="select * fro..nic_instructores..." />
+            <marker date="1461717366483" expanded="true" signature="37360:37558" placeholder="update nic_i..." />
+            <marker date="1461717366483" expanded="true" signature="37770:37997" placeholder="update nic_i..." />
+            <marker date="1461717366483" expanded="true" signature="38173:38371" placeholder="update nic_i..." />
+            <marker date="1461717366483" expanded="true" signature="38581:38808" placeholder="update nic_i..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../img/su.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sistemabanco/Administracion/Ban_admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/308623a7-73e4-4c31-9100-309433ca2472">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>308623a7-73e4-4c31-9100-309433ca2472</OriginalElement>
+          <nodes>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_user_sequences</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_sys_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_event_trigger</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_shdescription</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_ts_parser</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_foreign_table</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_xact_sys_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_user</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_settings</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_class</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_bgwriter</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_conversion</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_range</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_database</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_pltemplate</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_foreign_server</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_default_acl</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.cuenta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_namespace</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_collation</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_replication_slots</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_rewrite</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_index</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_trigger</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_rules</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_database_conflicts</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_group</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_shdepend</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_indexes</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_user_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_sys_indexes</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_activity</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_available_extension_versions</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tipo_documento</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_database</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_seclabel</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_sys_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_prepared_xacts</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_ts_config_map</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_tablespace</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tarjeta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_amproc</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_prepared_statements</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_sys_sequences</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_inherits</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_opfamily</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_constraint</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_description</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_user_mapping</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_extension</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_shseclabel</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_roles</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.persona_natural</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_opclass</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_user_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_am</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_views</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stats</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.cliente</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_type</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_all_sequences</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_user_functions</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_all_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_operator</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_xact_all_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_ts_config</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.ciudad</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_cast</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_xact_user_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_ts_dict</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_user_indexes</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_timezone_abbrevs</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_attrdef</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.persona_juridica</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_proc</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_auth_members</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_replication</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_matviews</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_all_tables</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_language</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_ts_template</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_largeobject</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_available_extensions</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_db_role_setting</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_all_indexes</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_sys_indexes</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_statistic</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_archiver</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_aggregate</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_attribute</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_locks</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_shadow</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_enum</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_seclabels</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_largeobject_metadata</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_statio_user_indexes</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.departamento</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_amop</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_xact_user_functions</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_timezone_names</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_authid</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tipo_tarjeta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_cursors</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tipo_cuenta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.pg_catalog.pg_depend</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_stat_all_indexes</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.VIEW:sistemabanco.pg_catalog.pg_user_mappings</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.13801791713325867" x="1837.0" y="1776.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/e6b38d00-f844-4840-9505-a1056d61dad0.SCHEMA:BANCO.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>e6b38d00-f844-4840-9505-a1056d61dad0.SCHEMA:BANCO.public</OriginalElement>
+          <nodes>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.detalle_servicio</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.cuenta</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.tarjeta</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.tipo_documento</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.departamento</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.persona_juridica</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.detalle_pago</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.persona_natural</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.tipo_tarjeta</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.cliente</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.pagos</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.moneda</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.ciudad</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.otros_servicios</node>
+            <node x="" y="">e6b38d00-f844-4840-9505-a1056d61dad0.TABLE:BANCO.public.tipo_cuenta</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8157112526539277" x="680.3859968766268" y="461.00000000000006" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/308623a7-73e4-4c31-9100-309433ca2472.SCHEMA:sistemabanco.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>308623a7-73e4-4c31-9100-309433ca2472.SCHEMA:sistemabanco.public</OriginalElement>
+          <nodes>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.departamento</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.cuenta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tipo_tarjeta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.detalle_tarjeta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tipo_documento</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.pagos</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.persona_natural</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.ciudad</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.detalle_servicios</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.moneda</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tarjeta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.tipo_cuenta</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.otros_servicios</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.persona_juridica</node>
+            <node x="" y="">308623a7-73e4-4c31-9100-309433ca2472.TABLE:sistemabanco.public.cliente</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7487228003784294" x="711.8344827586208" y="377.3262572656053" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/e6b38d00-f844-4840-9505-a1056d61dad0/BANCO.public.pagos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e6b38d00-f844-4840-9505-a1056d61dad0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.tipo_documento">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.tipo_cuenta">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.persona_natural">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/e6b38d00-f844-4840-9505-a1056d61dad0/BANCO.public.persona_natural">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../banco/Administracion/Ban_admin/index_loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/e6b38d00-f844-4840-9505-a1056d61dad0/BANCO.public.cliente">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.cliente">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/banco/Administracion/Ban_admin/modulos/cuentas/cuentas_empresas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-48.079327">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.cuenta">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bc1d1b87/308623a7-73e4-4c31-9100-309433ca2472/sistemabanco.public.persona_juridica">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/308623a7-73e4-4c31-9100-309433ca2472/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81400967">
+          <caret line="152" column="271" selection-start-line="152" selection-start-column="271" selection-end-line="152" selection-end-column="271" />
+          <folding>
+            <element signature="e#0#302#0" expanded="false" />
+            <element signature="e#306#524#0" expanded="false" />
+            <element signature="e#529#735#0" expanded="false" />
+            <element signature="e#872#1050#0" expanded="false" />
+            <element signature="e#1055#1337#0" expanded="false" />
+            <element signature="e#1341#1713#0" expanded="false" />
+            <element signature="e#1717#2155#0" expanded="false" />
+            <element signature="e#2158#2224#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
