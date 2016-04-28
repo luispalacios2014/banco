@@ -237,7 +237,9 @@ class cuentas_cuentas {
         //INSERTO EN LA TABLA CLIENTES
         $clientes = ("'$nombre','$apellido',$identificacion,'$fecha_registro', $tipo_identificacion" );
         $datos1 = ("nombre, apellido, num_documento,fecha_registro, tipo_documento_id");
-        $sql = ("insert into cliente($datos1) values ($clientes)");
+      
+        echo $sql = ("insert into cliente($datos1) values ($clientes)");
+         die();
         $a->execute($sql);
 
         //INSERTO EN LA TABLA CLIENTES
@@ -267,7 +269,8 @@ class cuentas_cuentas {
         }
         $cuentas = ("$num_cuenta,$saldo,'$banco','$fecha_registro',$tipo,$id_cli ");
         $datos4 = ("num_cuenta, saldo, entidad, fecha_registro, tipo_cuenta_id, cliente_id");
-        $sql3 = ("insert into cuenta($datos4) values ($cuentas)");
+        echo $sql3 = ("insert into cuenta($datos4) values ($cuentas)");
+        die();
         $a->execute($sql3);
         $a->mensaje_registro($modulo,$archivo,$accion);
         // }
