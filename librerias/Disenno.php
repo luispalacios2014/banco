@@ -14,9 +14,11 @@ class Disenno {
 <!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->
   <head>
     <meta content="text/html" http-equiv="content-type" charset="UTF-8"  >
-    <title>AdminLTE 2 | Dashboard</title>
+    <title>Banco Admin</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
+    <link rel="shortcut icon" href="http://apple.com/favicon.ico" />
+    <link rel="icon" type="image/ico" href="http://www.apple.com/favicon.ico" />
     <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Font Awesome Icons -->
     <link href="../../dist/css/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
@@ -135,7 +137,7 @@ class Disenno {
                         <div class="circle-clipper right"><div class="circle"></div></div>
                     </div>
                 </div>
-                <p>Wait a minute...</p>
+                <p>Cargando...</p>
             </div>
         </div>
 
